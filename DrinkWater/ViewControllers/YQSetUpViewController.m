@@ -6,10 +6,16 @@
 
 @implementation YQSetUpViewController
 
+- (void)viewDidLoad {
+    (UIDatePickerView *)self.timeInterval.subviews[0]
+    NSLog(@"subviews:%@",self.timeInterval.subviews);
+}
+
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.destinationViewController isKindOfClass:[YQReminderViewController class]]) {
-        YQReminderViewController *asker = (YQReminderViewController *) segue.destinationViewController;
-        asker.timeInterval = self.timeInterval.countDownDuration;
+        YQReminderViewController *reminderViewController = (YQReminderViewController *) segue.destinationViewController;
+        reminderViewController.timeInterval = self.timeInterval.countDownDuration;
     }
 }
 

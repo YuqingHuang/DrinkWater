@@ -5,6 +5,7 @@
     <ignored path="DrinkWater.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/DrinkWater.xcodeproj/xcuserdata/twer.xcuserdatad/xcschemes/DrinkWaterTests.xcscheme" changelist="7e812136-7b1f-4196-963a-8475e0bd9735" time="1367119888631" ignored="false" />
+    <file path="/YQSetUpViewController.m" changelist="7e812136-7b1f-4196-963a-8475e0bd9735" time="1368441438331" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +25,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="UIDatePicker.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIDatePicker.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="39" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YQSetUpViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DrinkWater/ViewControllers/YQSetUpViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="39" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="YQSetUpViewController.m" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DrinkWater/ViewControllers/YQSetUpViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="456" selection-end="456" vertical-scroll-proportion="0.22519685">
+            <state line="9" column="21" selection-start="160" selection-end="160" vertical-scroll-proportion="0.15590551">
               <folding />
             </state>
           </provider>
@@ -263,9 +282,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIDatePicker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="39" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DrinkWater/ViewControllers/YQSetUpViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DrinkWater/ViewControllers/YQSetUpViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="456" selection-end="456" vertical-scroll-proportion="0.22519685">
+        <state line="9" column="21" selection-start="160" selection-end="160" vertical-scroll-proportion="0.15590551">
           <folding />
         </state>
       </provider>
