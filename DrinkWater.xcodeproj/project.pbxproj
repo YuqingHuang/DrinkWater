@@ -21,6 +21,7 @@
 		36867B3A0AFC00986144AEA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3686775E928469D5EE599F3A /* Foundation.framework */; };
 		36867DACA3EA0D51479B7106 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36867F7627DB4294293ED4B0 /* Default@2x.png */; };
 		36867EF042C7E5D426485FD6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368678DC283AA3220E75D72B /* SenTestingKit.framework */; };
+		490F6E8C1740F40B000ED3D0 /* YQSetUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 490F6E8B1740F40B000ED3D0 /* YQSetUpViewController.m */; };
 		49822110172CCF6400BF8338 /* StartPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4982210F172CCF6400BF8338 /* StartPage.xib */; };
 		49F19AD9173A351A008AC7D6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F19AD8173A351A008AC7D6 /* MainStoryboard.storyboard */; };
 		49F19ADC173A5132008AC7D6 /* YQReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F19ADB173A5132008AC7D6 /* YQReminderViewController.m */; };
@@ -56,6 +57,8 @@
 		36867ED3FEE56F9C2E3C3AC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		36867ED524DE886F9653438A /* DrinkWaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrinkWaterTests.m; sourceTree = "<group>"; };
 		36867F7627DB4294293ED4B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		490F6E8A1740F40B000ED3D0 /* YQSetUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YQSetUpViewController.h; path = ViewControllers/YQSetUpViewController.h; sourceTree = "<group>"; };
+		490F6E8B1740F40B000ED3D0 /* YQSetUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YQSetUpViewController.m; path = ViewControllers/YQSetUpViewController.m; sourceTree = "<group>"; };
 		4982210F172CCF6400BF8338 /* StartPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StartPage.xib; path = Views/StartPage.xib; sourceTree = "<group>"; };
 		49F19AD8173A351A008AC7D6 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		49F19ADA173A5132008AC7D6 /* YQReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQReminderViewController.h; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				49F19AD8173A351A008AC7D6 /* MainStoryboard.storyboard */,
 				49F19ADA173A5132008AC7D6 /* YQReminderViewController.h */,
 				49F19ADB173A5132008AC7D6 /* YQReminderViewController.m */,
+				490F6E8A1740F40B000ED3D0 /* YQSetUpViewController.h */,
+				490F6E8B1740F40B000ED3D0 /* YQSetUpViewController.m */,
 			);
 			path = DrinkWater;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				36867061B818E3961280F150 /* main.m in Sources */,
 				36867895BDDA24477C85E1F5 /* YQAppDelegate.m in Sources */,
 				49F19ADC173A5132008AC7D6 /* YQReminderViewController.m in Sources */,
+				490F6E8C1740F40B000ED3D0 /* YQSetUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

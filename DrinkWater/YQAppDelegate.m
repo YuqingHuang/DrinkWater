@@ -22,6 +22,17 @@
     return YES;
 }
 
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
+  
+    NSLog(@"got notification:%@", notification);
+    if ([notification.alertBody isEqualToString:@"Go Drinking"]) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Drink Now" message:@"Immediatly" delegate:self cancelButtonTitle:@"Finish" otherButtonTitles:nil, nil];
+        [alert show];
+        NSLog(@"date:%@",[NSDate date]);
+    }
+    
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -54,9 +65,5 @@
 
 }
 
-- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
-    
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Drink Now" message:@"Immediatly" delegate:self cancelButtonTitle:@"Finish" otherButtonTitles:nil, nil];
-    [alert show];
-}
+
 @end

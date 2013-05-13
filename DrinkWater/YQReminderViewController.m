@@ -1,11 +1,3 @@
-//
-//  YQReminderViewController.m
-//  DrinkWater
-//
-//  Created by Huang Yuqing on 5/8/13.
-//
-//
-
 #import "YQReminderViewController.h"
 
 @interface YQReminderViewController ()
@@ -26,18 +18,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSLog(@"YQ is here");
     [self startReminder];
-	// Do any additional setup after loading the view.
 }
 
 - (void)startReminder
 {
+    NSLog(@"interval:%f", self.timeInterval);
     UILocalNotification *aNotification = [[UILocalNotification alloc] init];
-    aNotification.fireDate = [NSDate date];
+    NSDate *aFireDate = [[NSDate alloc] initWithTimeInterval:2*60 sinceDate:[NSDate date]];
+    NSLog(@"YQ's fireDate:%@",aFireDate);
+    aNotification.fireDate = aFireDate;
     aNotification.timeZone = [NSTimeZone defaultTimeZone];
     aNotification.repeatInterval = NSMinuteCalendarUnit;
-//    aNotification.re
+    aNotification.alertBody = @"Go Drinking";
+    aNotification.alertAction = @"Hi";
+
     NSLog(@"YQ's notification:%@", aNotification);
     
     aNotification.alertBody = @"Notification triggered";

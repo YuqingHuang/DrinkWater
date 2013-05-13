@@ -4,11 +4,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--View Controller - DrinkWater-->
+        <!--Set Up View Controller - DrinkWater-->
         <scene sceneID="5Il-5v-tgW">
             <objects>
-                <viewController id="zXY-rU-94A" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="pK8-9P-p8O">
+                <viewController id="zXY-rU-94A" customClass="YQSetUpViewController" sceneMemberID="viewController">
+                    <view key="view" alpha="0.90000000000000002" contentMode="scaleToFill" id="pK8-9P-p8O">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -25,14 +25,49 @@
                                     <segue destination="sZP-3z-ptV" kind="push" identifier="ShowDrinkMsg" id="sDO-9D-wWV"/>
                                 </connections>
                             </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="10" translatesAutoresizingMaskIntoConstraints="NO" id="ptW-kN-QIe">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="199" id="a6i-JM-jit"/>
+                                    <constraint firstAttribute="height" constant="216" id="e82-0d-SDR"/>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="390132146.47566199">
+                                    <!--2013-05-13 10:02:26 +0000-->
+                                </date>
+                                <timeZone key="timeZone" name="America/Los_Angeles">
+                                    <data key="data">
+VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
+y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
+5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
+8n/BkPNvwKD0X6OQ9U+ioPY/hZD3L4Sg+CiiEPkPZqD6CIQQ+viDIPvoZhD82GUg/chIEP64RyD/qCoQ
+AJgpIAGIDBACeAsgA3EokARhJ6AFUQqQBkEJoAcw7JAHjUOgCRDOkAmtvyAK8LCQC+CvoAzZzRANwJGg
+DrmvEA+priAQmZEQEYmQIBJ5cxATaXIgFFlVEBVJVCAWOTcQFyk2IBgiU5AZCRggGgI1kBryNKAb4heQ
+HNIWoB3B+ZAesfigH6HbkCB2KyAhgb2QIlYNICNq2hAkNe8gJUq8ECYV0SAnKp4QJ/7toCkKgBAp3s+g
+KupiECu+saAs036QLZ6ToC6zYJAvfnWgMJNCkDFnkiAycySQM0d0IDRTBpA1J1YgNjLokDcHOCA4HAUQ
+OOcaIDn75xA6xvwgO9vJEDywGKA9u6sQPo/6oD+bjRBAb9ygQYSpkEJPvqBDZIuQRC+goEVEbZBF89Mg
+Ry2KEEfTtSBJDWwQSbOXIErtThBLnLOgTNZqkE18laBOtkyQT1x3oFCWLpBRPFmgUnYQkFMcO6BUVfKQ
+VPwdoFY11JBW5TogWB7xEFjFHCBZ/tMQWqT+IFvetRBchOAgXb6XEF5kwiBfnnkQYE3eoGGHlZBiLcCg
+Y2d3kGQNoqBlR1mQZe2EoGcnO5BnzWagaQcdkGmtSKBq5v+Qa5ZlIGzQHBBtdkcgbq/+EG9WKSBwj+AQ
+cTYLIHJvwhBzFe0gdE+kEHT/CaB2OMCQdt7roHgYopB4vs2gefiEkHqer6B72GaQfH6RoH24SJB+XnOg
+f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
+</data>
+                                </timeZone>
+                            </datePicker>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="h1u-v7-sCn" firstAttribute="centerX" secondItem="pK8-9P-p8O" secondAttribute="centerX" type="default" id="G9r-2V-CUp"/>
-                            <constraint firstItem="h1u-v7-sCn" firstAttribute="top" secondItem="pK8-9P-p8O" secondAttribute="top" constant="230" id="gno-dF-ex6"/>
+                            <constraint firstItem="ptW-kN-QIe" firstAttribute="centerX" secondItem="pK8-9P-p8O" secondAttribute="centerX" type="default" id="EjD-ht-1cX"/>
+                            <constraint firstItem="ptW-kN-QIe" firstAttribute="centerX" secondItem="h1u-v7-sCn" secondAttribute="centerX" type="default" id="H1Y-IH-qab"/>
+                            <constraint firstAttribute="bottom" secondItem="h1u-v7-sCn" secondAttribute="bottom" constant="29" id="JBk-r4-cAR"/>
+                            <constraint firstItem="ptW-kN-QIe" firstAttribute="top" secondItem="pK8-9P-p8O" secondAttribute="top" constant="98" id="g4r-hL-LR3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="DrinkWater" id="sOg-2G-yEm"/>
+                    <connections>
+                        <outlet property="timeInterval" destination="ptW-kN-QIe" id="On6-fR-9j6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nT6-Nj-lsZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -71,7 +106,6 @@
         <!--Navigation Controller-->
         <scene sceneID="zRQ-Kf-KvF">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="elM-36-h6g" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController definesPresentationContext="YES" id="1a8-3z-JPw" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="0VH-Ud-ezP">
                         <autoresizingMask key="autoresizingMask"/>
@@ -80,6 +114,7 @@
                         <segue destination="zXY-rU-94A" kind="relationship" relationship="rootViewController" id="7Hc-di-J4r"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="elM-36-h6g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="209" y="255"/>
         </scene>
@@ -90,6 +125,12 @@
         </class>
         <class className="YQReminderViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/YQReminderViewController.h"/>
+        </class>
+        <class className="YQSetUpViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/YQSetUpViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="timeInterval" candidateClass="UIDatePicker"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
