@@ -6,18 +6,11 @@
 
 @implementation YQReminderViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSString *text = [NSString stringWithFormat:@"From now on, every %d minutes, we will remind you to drink water", (int) self.timeInterval];
+    self.reminderText.text = text;
     [self startReminder];
 }
 
@@ -25,7 +18,7 @@
 {
     NSLog(@"interval:%f", self.timeInterval);
     UILocalNotification *aNotification = [[UILocalNotification alloc] init];
-    NSDate *aFireDate = [[NSDate alloc] initWithTimeInterval:2*60 sinceDate:[NSDate date]];
+    NSDate *aFireDate = [[NSDate alloc] initWithTimeInterval:self.timeInterval*60 sinceDate:[NSDate date]];
     NSLog(@"YQ's fireDate:%@",aFireDate);
     aNotification.fireDate = aFireDate;
     aNotification.timeZone = [NSTimeZone defaultTimeZone];
@@ -34,9 +27,6 @@
     aNotification.alertAction = @"Hi";
 
     NSLog(@"YQ's notification:%@", aNotification);
-    
-    aNotification.alertBody = @"Notification triggered";
-    aNotification.alertAction = @"Details";
     [[UIApplication sharedApplication] scheduleLocalNotification:aNotification];
 }
 @end

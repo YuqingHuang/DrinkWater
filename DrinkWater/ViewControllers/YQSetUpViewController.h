@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import "YQReminderViewController.h"
 
-@interface YQSetUpViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIDatePicker *timeInterval;
+@interface YQSetUpViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
+@property (strong, nonatomic) IBOutlet UIPickerView *timePicker;
 
 @end

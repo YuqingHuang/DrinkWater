@@ -25,48 +25,24 @@
                                     <segue destination="sZP-3z-ptV" kind="push" identifier="ShowDrinkMsg" id="sDO-9D-wWV"/>
                                 </connections>
                             </button>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="10" translatesAutoresizingMaskIntoConstraints="NO" id="ptW-kN-QIe">
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DMN-hn-HM6">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="199" id="a6i-JM-jit"/>
-                                    <constraint firstAttribute="height" constant="216" id="e82-0d-SDR"/>
+                                    <constraint firstAttribute="width" constant="154" id="ACb-qi-M0p"/>
+                                    <constraint firstAttribute="height" constant="216" id="KHK-fu-aYO"/>
                                 </constraints>
-                                <date key="date" timeIntervalSinceReferenceDate="390132146.47566199">
-                                    <!--2013-05-13 10:02:26 +0000-->
-                                </date>
-                                <timeZone key="timeZone" name="America/Los_Angeles">
-                                    <data key="data">
-VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
-y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
-5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
-8n/BkPNvwKD0X6OQ9U+ioPY/hZD3L4Sg+CiiEPkPZqD6CIQQ+viDIPvoZhD82GUg/chIEP64RyD/qCoQ
-AJgpIAGIDBACeAsgA3EokARhJ6AFUQqQBkEJoAcw7JAHjUOgCRDOkAmtvyAK8LCQC+CvoAzZzRANwJGg
-DrmvEA+priAQmZEQEYmQIBJ5cxATaXIgFFlVEBVJVCAWOTcQFyk2IBgiU5AZCRggGgI1kBryNKAb4heQ
-HNIWoB3B+ZAesfigH6HbkCB2KyAhgb2QIlYNICNq2hAkNe8gJUq8ECYV0SAnKp4QJ/7toCkKgBAp3s+g
-KupiECu+saAs036QLZ6ToC6zYJAvfnWgMJNCkDFnkiAycySQM0d0IDRTBpA1J1YgNjLokDcHOCA4HAUQ
-OOcaIDn75xA6xvwgO9vJEDywGKA9u6sQPo/6oD+bjRBAb9ygQYSpkEJPvqBDZIuQRC+goEVEbZBF89Mg
-Ry2KEEfTtSBJDWwQSbOXIErtThBLnLOgTNZqkE18laBOtkyQT1x3oFCWLpBRPFmgUnYQkFMcO6BUVfKQ
-VPwdoFY11JBW5TogWB7xEFjFHCBZ/tMQWqT+IFvetRBchOAgXb6XEF5kwiBfnnkQYE3eoGGHlZBiLcCg
-Y2d3kGQNoqBlR1mQZe2EoGcnO5BnzWagaQcdkGmtSKBq5v+Qa5ZlIGzQHBBtdkcgbq/+EG9WKSBwj+AQ
-cTYLIHJvwhBzFe0gdE+kEHT/CaB2OMCQdt7roHgYopB4vs2gefiEkHqer6B72GaQfH6RoH24SJB+XnOg
-f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
-AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
-AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
-AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
-</data>
-                                </timeZone>
-                            </datePicker>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="ptW-kN-QIe" firstAttribute="centerX" secondItem="pK8-9P-p8O" secondAttribute="centerX" type="default" id="EjD-ht-1cX"/>
-                            <constraint firstItem="ptW-kN-QIe" firstAttribute="centerX" secondItem="h1u-v7-sCn" secondAttribute="centerX" type="default" id="H1Y-IH-qab"/>
-                            <constraint firstAttribute="bottom" secondItem="h1u-v7-sCn" secondAttribute="bottom" constant="29" id="JBk-r4-cAR"/>
-                            <constraint firstItem="ptW-kN-QIe" firstAttribute="top" secondItem="pK8-9P-p8O" secondAttribute="top" constant="98" id="g4r-hL-LR3"/>
+                            <constraint firstItem="DMN-hn-HM6" firstAttribute="centerX" secondItem="pK8-9P-p8O" secondAttribute="centerX" type="default" id="1wY-RT-aVk"/>
+                            <constraint firstItem="DMN-hn-HM6" firstAttribute="top" secondItem="pK8-9P-p8O" secondAttribute="top" constant="50" id="MeW-Lf-yhl"/>
+                            <constraint firstAttribute="bottom" secondItem="h1u-v7-sCn" secondAttribute="bottom" constant="50" id="PcD-5K-gv7"/>
+                            <constraint firstItem="DMN-hn-HM6" firstAttribute="centerX" secondItem="h1u-v7-sCn" secondAttribute="centerX" type="default" id="s0A-1j-LgO"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="DrinkWater" id="sOg-2G-yEm"/>
                     <connections>
-                        <outlet property="timeInterval" destination="ptW-kN-QIe" id="On6-fR-9j6"/>
+                        <outlet property="timePicker" destination="DMN-hn-HM6" id="Oal-7o-ZcK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nT6-Nj-lsZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -81,7 +57,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="From now on  every 45 minutes  we will remind you to drink water" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="248" translatesAutoresizingMaskIntoConstraints="NO" id="2tX-wK-p7S">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="here" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="248" translatesAutoresizingMaskIntoConstraints="NO" id="2tX-wK-p7S">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="248" id="LGt-dZ-WUV"/>
                                     <constraint firstAttribute="height" constant="154" id="jo7-by-NFB"/>
@@ -98,6 +74,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Zaq-35-ZSJ"/>
+                    <connections>
+                        <outlet property="reminderText" destination="2tX-wK-p7S" id="SS1-7A-ZW5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h3Q-dc-ZrN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -125,11 +104,14 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         </class>
         <class className="YQReminderViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/YQReminderViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="reminderText" candidateClass="UILabel"/>
+            </relationships>
         </class>
         <class className="YQSetUpViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/YQSetUpViewController.h"/>
             <relationships>
-                <relationship kind="outlet" name="timeInterval" candidateClass="UIDatePicker"/>
+                <relationship kind="outlet" name="timePicker" candidateClass="UIPickerView"/>
             </relationships>
         </class>
     </classes>
